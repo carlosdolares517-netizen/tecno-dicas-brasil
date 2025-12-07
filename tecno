@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>TecnoDicas Brasil — Tutoriais, Tecnologia e Dicas para Celular</title>
+<meta name="description" content="Tutoriais simples, dicas de celular, apps úteis e soluções rápidas no TecnoDicas Brasil.">
+<style>
+/* ======== ESTILO GERAL ======== */
+body{margin:0;font-family:Arial;background:#f4f4f4;color:#222;line-height:1.6}
+header{text-align:center;background:#fff;padding:20px;box-shadow:0 1px 6px rgba(0,0,0,.1)}
+header h1{margin:0;font-size:2rem}
+header p{margin:5px 0;color:#666}
+nav a{margin:0 10px;text-decoration:none;color:#0b63d8;font-weight:bold}
+
+/* ======== LAYOUT ======== */
+.container{max-width:1100px;margin:auto;padding:15px}
+.card{background:#fff;padding:20px;margin:15px 0;border-radius:12px;box-shadow:0 1px 6px rgba(0,0,0,.07)}
+.grid{display:grid;grid-template-columns:1fr;gap:20px}
+@media(min-width:900px){.grid{grid-template-columns:2fr 1fr}}
+
+/* ======== POSTS ======== */
+.post{margin-bottom:20px}
+.post h4{margin-bottom:5px}
+
+/* ======== ADSENSE PLACEHOLDER ======== */
+.ad-slot{border:2px dashed #bbb;padding:12px;text-align:center;margin:15px 0;border-radius:8px}
+
+/* ======== FOOTER ======== */
+footer{text-align:center;padding:20px;color:#777;margin-top:20px}
+
+/* ======== TABELA MENU DE PÁGINAS ======== */
+.menu-pages a{
+display:inline-block;
+background:#0b63d8;
+color:white;
+padding:10px 15px;
+margin:5px;
+border-radius:6px;
+text-decoration:none;
+font-size:.9rem;
+}
+
+/* ======== TÍTULOS ======== */
+h2{color:#0b63d8}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>TecnoDicas Brasil</h1>
+  <p>Tutoriais fáceis para deixar seu celular no máximo</p>
+  <nav>
+    <a href="#home">Início</a>
+    <a href="#sobre">Sobre</a>
+    <a href="#contato">Contato</a>
+    <a href="#privacidade">Privacidade</a>
+  </nav>
+</header>
+
+<div class="container">
+
+<!-- MENU DE ACESSO RÁPIDO -->
+<div class="menu-pages card">
+  <a href="#home">Home</a>
+  <a href="#sobre">Sobre Nós</a>
+  <a href="#contato">Contato</a>
+  <a href="#privacidade">Política de Privacidade</a>
+</div>
+
+<!-- =======================================
+              HOME
+======================================= -->
+<section id="home" class="grid">
+  <div>
+    <div class="card">
+      <h2>Últimos Artigos</h2>
+
+      <div class="post">
+        <h4>Como acelerar seu celular Android</h4>
+        <p>Dicas práticas para deixar seu aparelho mais rápido, limpando cache e ajustando configurações.</p>
+      </div>
+
+      <div class="post">
+        <h4>Como liberar espaço sem apagar fotos</h4>
+        <p>Aprenda a usar Google Files e backup automático para economizar armazenamento.</p>
+      </div>
+
+      <div class="post">
+        <h4>Como recuperar fotos apagadas</h4>
+        <p>Técnicas simples usando Google Fotos e apps confiáveis.</p>
+      </div>
+
+      <div class="ad-slot">POSIÇÃO DE ANÚNCIO</div>
+
+    </div>
+  </div>
+
+  <!-- Sidebar -->
+  <aside>
+    <div class="card">
+      <h3>Mais buscados</h3>
+      <ul>
+        <li>Dicas de Android</li>
+        <li>Apps úteis</li>
+        <li>Como recuperar arquivos</li>
+      </ul>
+    </div>
+  </aside>
+</section>
+
+<!-- =======================================
+              SOBRE
+======================================= -->
+<section id="sobre" class="card">
+  <h2>Sobre Nós</h2>
+  <p>O TecnoDicas Brasil é um portal criado para ajudar quem deseja resolver problemas no celular, instalar apps, melhorar desempenho e aprender tecnologia de forma simples e rápida.</p>
+</section>
+
+<!-- =======================================
+              CONTATO
+======================================= -->
+<section id="contato" class="card">
+  <h2>Contato</h2>
+  <p>Para dúvidas, parcerias ou sugestões, envie um e-mail para:</p>
+  <p><b>contato@tecnodicasbrasil.com</b></p>
+</section>
+
+<!-- =======================================
+        POLÍTICA DE PRIVACIDADE
+======================================= -->
+<section id="privacidade" class="card">
+  <h2>Política de Privacidade</h2>
+  <p>Levamos sua privacidade a sério. Não coletamos dados pessoais sem sua permissão. Podemos usar cookies para melhorar a experiência.</p>
+  <p>Anúncios exibidos podem usar cookies de personalização do Google. Você pode desativar nas configurações da sua conta.</p>
+</section>
+
+<footer>
+  © 2025 TecnoDicas Brasil — Todos os direitos reservados.
+</footer>
+
+</div>
+</body>
+</html>
